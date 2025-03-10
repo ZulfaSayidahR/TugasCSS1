@@ -1,0 +1,47 @@
+/* Mengatur tampilan dasar */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #89A8B2, #E5E1DA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container utama */
+.biodata-container {
+    background:#89A8B2; 
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Judul */
+.biodata-container h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Gambar Profil */
+.biodata-container img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+/* Teks biodata */
+.biodata-container p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Styling untuk label */
+.biodata-container p b {
+    color: #ffdd57; /* Warna kuning keemasan */
+}
